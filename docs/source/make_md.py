@@ -13,6 +13,6 @@ if __name__ == "__main__":
     filenames = glob.glob("img/3_node_circuits/*")
     make_md_table(filenames, "3_node_circuits.md")
     output = pypandoc.convert_file("3_node_circuits.md", "rst")
-    with open("3_node_circuits.rst", "w") as f:
+    with open("api.rst", "w") as f:
         f.write(output)
     
