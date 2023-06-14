@@ -18,8 +18,8 @@ extensions = [
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     "myst_parser",
-    "sphinx.ext.mathjax",
-    "sphinx-mathjax-offline"
+    # "sphinx.ext.mathjax"
+    "sphinx.ext.imgmath"
 ]
 
 intersphinx_mapping = {
@@ -36,3 +36,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+# -- Options for math output
+imgmath_image_format = 'svg'
+# mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
