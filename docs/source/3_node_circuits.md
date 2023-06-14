@@ -1,6 +1,7 @@
+# 3 Node Circuits
 | Circuit | Hamiltonian |
 | ------- | ----------- |
-|![](img/3_node_circuits/g1_c244.svg)|placeholder|
+|![](img/3_node_circuits/g1_c244.svg)|$X=\pi$|
 |![](img/3_node_circuits/g1_c293.svg)|placeholder|
 |![](img/3_node_circuits/g1_c342.svg)|placeholder|
 |![](img/3_node_circuits/g1_c27.svg)|placeholder|
